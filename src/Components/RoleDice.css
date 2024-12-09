@@ -1,0 +1,35 @@
+.dice{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
+.number{
+    height: 80px;
+    width: 80px;
+    border-radius: 6px;
+    box-shadow: 4px 3px 8px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border: 2px solid black;
+    background-color: rgb(5, 5, 45);
+    color: yellow;
+    text-shadow: 2px 1px 5px yellow;
+    cursor: pointer;
+}
+.para{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(114, 5, 5);
+}

@@ -1,0 +1,28 @@
+.box {
+  padding: 10px 20px;
+  border: 2px solid black;
+  font-weight: 800;
+  font-size: 20px;
+  margin-left: 24px;
+}
+.box:hover {
+  background-color: black;
+  color: white;
+  border: 2px white black;
+}
+.box1 {
+  margin-left: 470px;
+  
+}
+.p {
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 320px;
+  font-size: 23px;
+}
+.para2{
+  color: red;
+  font-size: 20px;
+  margin-bottom: 20px;
+  float: right;
+}

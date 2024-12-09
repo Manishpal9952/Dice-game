@@ -1,0 +1,36 @@
+.left img{
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+}
+.right h1{
+    font-size: 5em;
+    /* margin-bottom: 80px; */
+}
+.right{
+    text-align: end;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+button{
+    padding: 5px 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.2s ease-in;
+    overflow: hidden;
+}
